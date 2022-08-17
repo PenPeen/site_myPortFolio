@@ -1,0 +1,198 @@
+<!--
+	やること
+	①LOGO準備
+	②LIKE写真準備
+	アスペクト比 1:1の画像 ナマケモノ・ヤバT・テニス・アニメ
+ -->
+
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="IKEGAMI PORTAL">
+	<meta name="viewport" content="width=device-width">
+	<title>IKEGAMI PORTAL SITE</title>
+	<link rel="stylesheet" media="all" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body id="top">
+	<div id="wrapper">
+
+		<div id="sidebar">
+			<div id="sidebarWrap">
+				<a href="">
+					<h1><img class="logo" src="images/logo.png" width="87" height="25" alt="logo"></h1>
+				</a>
+				<nav id="mainnav">
+					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+					<div class="panel">
+						<ul>
+							<li><a href="#top">TOP</a></li>
+							<li><a href="#sec01">MESSAGE</a></li>
+							<li><a href="#sec02">GALLERY</a></li>
+							<li><a href="#sec03">LIKE</a></li>
+							<li><a href="#sec04">PROJECT</a></li>
+							<li><a href="#sec05">COMPANY</a></li>
+						</ul>
+						<ul id="sns">
+							<li><img class="facebook_img" src="images/iconFb.png" width="20" height="20" alt="FB"></li>
+							<li><img class="twitter_img" src="images/iconTw.png" width="20" height="20" alt="twitter"></li>
+							<li><img class="instagram_img" src="images/iconInsta.png" width="20" height="20" alt="Instagram"></li>
+							<li><img class="youtube_img" src="images/iconYouTube.png" width="20" height="20" alt="YouTube"></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<div id="content">
+			<p id="mainImg"><img src="images/mainImg.jpg" alt=""></p>
+			<!-- MESSAGE -->
+			<section id="sec01">
+				<header>
+					<h2><span>MESSAGE</span></h2>
+				</header>
+				<div class="innerS">
+					池上ポータルサイトです。<br>
+					テンプレート引っ張ってきて適当に作ってます😁<br>
+					<br>
+					C#でのアプリケーション開発に没頭中
+					<br>
+					友達が皆栃木を離れてボッチです...
+				</div>
+			</section>
+			<!-- // MESSAGE -->
+			<!-- GALLERY -->
+			<section id="sec02">
+				<!-- ↓なんかheader出ません -->
+				<header>
+					<h2><span>GALLERY</span></h2>
+				</header>
+				<div class="innerS">
+					↓ おしゃれだから入れただけ...
+				</div>
+				<ul id="gallery">
+					<li><img src="images/photo01.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo02.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo03.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo04.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo05.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo06.jpg" width="360" height="350" alt=""></li>
+					<!-- ↓こんな画像いらない -->
+					<!-- <li class="full"><img src="images/photo07.jpg" width="1080" height="695" alt=""></li> -->
+					<!-- <li><img src="images/photo08.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo09.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo10.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo11.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo12.jpg" width="360" height="350" alt=""></li>
+					<li><img src="images/photo13.jpg" width="360" height="350" alt=""></li> -->
+				</ul>
+			</section>
+			<!-- // GALLERY -->
+			<!-- LIKE -->
+			<section id="sec03">
+				<header>
+					<h2><span>LIKE</span></h2>
+				</header>
+				<div class="inner">
+					<ul class="col4">
+						<li>
+							<p class="img">
+								<img class="logo_img" src="images/logo01.png" width="168" height="168" alt="">
+							</p>
+							<p>ナマケモノ</p>
+							<p>癒し。飼いたい。</p>
+							<p>爬虫類も好き。</p>
+						</li>
+						<li>
+							<p class="img">
+								<img class="logo_img"  src="images/logo02.png" width="168" height="168" alt="">
+							</p>
+							<p>お笑い！</p>
+							<p>賞レース大好き人間。</p>
+							<p>推しはさらば青春の光</p>
+						</li>
+						<li>
+							<p class="img">
+								<img class="logo_img"  src="images/logo03.png" width="168" height="168" alt="">
+							</p>
+							<p>NiziU！</p>
+							<p>RIO MAYA推してます。</p>
+						</li>
+						<li>
+							<p class="img">
+								<img class="logo_img"  src="images/logo04.png" width="168" height="168" alt="">
+							</p>
+							<p>アニメ、漫画</p>
+							<p>アオのハコ!</p>
+							<p>呪術廻戦も最近熱い...</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- // LIKE -->
+
+			<!-- PROJECT -->
+			<section id="sec04">
+				<header>
+					<h2><span>PROJECT</span></h2>
+				</header>
+				<div class="inner">
+					<div class="article">
+						<img src="images/photo14.jpg" width="370" height="224" alt="">
+						<p>SEしてます。</p>
+						<p>将来は渋いおじいちゃんになりたい...</p>
+						<p>バイク乗りたい...</p>
+						<p>早く結婚したい...</p>
+					</div>
+					<div class="article">
+						<img src="images/photo15.jpg" width="370" height="224" alt="">
+						<p>
+
+							ホームページ開発、Webアプリケーションの作成、マクロ開発
+						</p>
+						<P>副業でWebデザインしたい😥</P>
+						<ul>
+							<li>使用言語・ツール</li>
+							<li>Java, PHP, HTML, CSS, JavaScript, VBA, C#, SQLServer, Docker</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- // PROJECT -->
+			<!-- COMPANY -->
+			<section id="sec05">
+				<header>
+					<h2><span>COMPANY</span></h2>
+				</header>
+				<div class="inner">
+					<ul class="col2">
+						<li>
+							<p>XXXXX株式会社</p>
+							<p>XXX事業所</p>
+							<p>〒●●●-●●●●<br>栃木県〜</p>
+							<p>TEL：</p>
+						</li>
+						<li>
+							<div id="map">
+								<!-- GOOGLE MAP -->
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25912.541162898084!2d139.88545974999997!3d35.72455485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1660705748623!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								<!-- // GOOGLE MAP -->
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- // COMPANY -->
+
+			<footer id="footer">
+				Copyright(c) 2016 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+			</footer>
+
+		</div>
+	</div>
+
+</body>
+</html>
